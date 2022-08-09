@@ -48,7 +48,7 @@ session_start();
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;800&family=Raleway:wght@200;400&display=swap" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-        <link rel="stylesheet" href="CSS/flowers.css">
+        <link rel="stylesheet" href="/CSS/flowers.css">
 
         
         <title>Bloom</title>
