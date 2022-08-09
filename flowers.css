@@ -1,0 +1,105 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-link {
+  font-family: "Playfair Display", serif;
+}
+
+.banner {
+  width: 100%;
+  height: 700px;
+  background-image: url("../images/bloom.jpg");
+  background-color: lightgrey;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .bannerText {
+  position: absolute;
+  text-align: center;
+}
+.banner .bannerText h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: white;
+  font-size: 13vw;
+  text-align: center;
+  text-shadow: 5px 5px 40px black;
+  opacity: 0.8;
+}
+.banner .bannerText p {
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 4vw;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.buttonBox {
+  min-height: 50px;
+  margin: 20px;
+}
+.buttonBox .buttonHeader {
+  text-align: center;
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.buttonBox .productBtn {
+  width: 175px;
+  padding-left: 5px;
+  color: #d3818f;
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+}
+.buttonBox .productBtn:hover {
+  opacity: 0.5;
+}
+
+.contentWrapper {
+  margin: 50px;
+}
+.contentWrapper .productWrapper {
+  padding: 25px;
+}
+.contentWrapper .productWrapper .flower_image {
+  max-width: 225px;
+}
+.contentWrapper .productWrapper .flower_name {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+.contentWrapper .productWrapper .price {
+  font-weight: bold;
+  color: #d3818f;
+  font-size: 18px;
+}
+.contentWrapper .productWrapper .star {
+  color: #d3818f;
+}
+.contentWrapper .productWrapper .addButton {
+  background-color: #acc9c9;
+  color: black;
+  border-radius: 5px;
+  font-weight: bold;
+  color: pink;
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 100px;
+    color: red;
+  }
+}
+
+/*# sourceMappingURL=flowers.css.map */
