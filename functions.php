@@ -2,13 +2,14 @@
 
 include("connect.php");
 
+
 class Flowers
 {
 
-    private $host = 'localhost';
-    private $username  = 'root';
-    private $password = '';
-    private $dbName = 'flower_shop';
+    private $host = '165.232.136.63';
+    private $username  = 'myadmin';
+    private $password = 'RainbowKat7149!';
+    private $dbName = 'bloom';
     private $port = 3306;
 
     public $conn;
