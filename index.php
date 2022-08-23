@@ -114,7 +114,7 @@ session_start();
             <div class="flower_name"><?php echo $flowers['flower_name']?></div>
             <div class="price">$<?php echo $flowers['price']?></div>
             <div class="rating"><?php echo $flowers['rating']?><i style= "color: #edd22e" class ="fas fa-star star"></i></div>
-            <button class=" btn addButton mt-2">Add To Cart</button>
+            <button class=" btn addButton mt-2" style="color: black">Add To Cart</button>
         </div>
 
     <?php } ?>
