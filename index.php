@@ -51,7 +51,7 @@ session_start();
         <link rel="stylesheet" href="/CSS/flowers.css">
 
         
-        <title>Bloom</title>
+        <title>Bloom Boutique</title>
 
 
 
